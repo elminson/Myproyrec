@@ -1,14 +1,14 @@
-<?php 
-   
-   $host = 'localhost';
-   $user = 'root';
-   $password = '';
-   $db = 'facturacion';
+<?php
 
-   $conection = @mysqli_connect($host,$user,$password,$db);
+$host = 'localhost';
+$user = 'root';
+$password = '';
+$db = 'facturacion';
 
-   if(!$conection){
-      echo "Error en la conexión";
-   }
+$conection = @mysqli_connect($host, $user, $password, $db);
+
+if (!$conection) {
+	echo "Error en la conexión";
+}
 
 ?>

@@ -1,6 +1,6 @@
-<?php 
-	session_start();
- ?>
+<?php
+session_start();
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -10,12 +10,12 @@
 	<title>Sisteme Ventas</title>
 </head>
 <body>
-	<?php include "includes/header.php"; ?>
-	<section id="container">
-		<h1>Bienvenido al sistema</h1>
+<?php include "includes/header.php"; ?>
+<section id="container">
+	<h1>Bienvenido al sistema</h1>
 
 
-	</section>
-	<?php include "includes/footer.php"; ?>
+</section>
+<?php include "includes/footer.php"; ?>
 </body>
 </html>
